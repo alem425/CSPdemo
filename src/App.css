@@ -2,12 +2,6 @@
    display: flex;
 }
 
-.navbar {
-   width: 200px; /* Adjust width as needed */
-   background-color: aquamarine; /* Background Color*/
-   padding: 14px; /* padding in the nav bar */
-}
-
 .content{
    flex-grow: 1;
    padding: 20px; /* Main content spacing */
