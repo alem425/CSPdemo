@@ -5,16 +5,16 @@ const Header: React.FC = () => {
   return (
     <div className="imgheader-container">
       <div className="textcontainer">
-        <h1>Solve your</h1>
+        <h1>Solve Your</h1>
         <div className="techtalent">
           <h1>
-            <mark>technical</mark>
+            <mark>Technical</mark>
           </h1>
           <h1>
-            <mark>talent</mark>
+            <mark>Talent</mark>
           </h1>
         </div>
-        <h1>Skill gaps now</h1>
+        <h1>Skill Gaps Now</h1>
         <h3>
           Transform untapped people potential into business performance with the
           CSP platform.

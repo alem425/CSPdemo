@@ -3,10 +3,13 @@
 
 :root{
    --font-family: 'Albert Sans', sans-serif;
-   --purple-blue-highlight: -moz-linear-gradient(90deg, #561cba 1.84%, #0a1ac7 102.67% ); 
+   --font-family2: 'Inter', serif;
+   --purple-blue-highlight: -moz-linear-gradient(45deg, #73638e 1.84%, #1628f0 102.67% ); 
    /* --gradient-text: -moz-linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%); */
    --main-color: black;
 }
-body{
+html, body{
    background-color: var(--main-color);
+   display: flex;
+   align-items: flex-start;
 }

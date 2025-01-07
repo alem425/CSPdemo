@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
+import Home from "../src/Pages/Home";
 import "./index.css";
 // Create root element
 const root = ReactDOM.createRoot(document.getElementById("app") as HTMLElement);
@@ -8,6 +8,6 @@ const root = ReactDOM.createRoot(document.getElementById("app") as HTMLElement);
 // Render the App
 root.render(
   <React.StrictMode>
-    <App />
+    <Home />
   </React.StrictMode>
 );

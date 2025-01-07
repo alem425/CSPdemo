@@ -16,6 +16,7 @@
 }
 
 .tile1,.tile2,.tile3,.tile4 {
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -127,63 +128,3 @@ border-image-source: linear-gradient(45deg,cyan,purple,hotpink);
   padding-bottom: 20px;
   margin-bottom: 10px;
 }
-
-/* .measurewrapper::before {
-  width: calc(70%);
-  height: calc(70%);
-  content: "";
-  position: absolute;
-  top: 10px;
-  left: 6px;
-  background: radial-gradient( rgba(252, 190, 3), rgba(3, 198, 252));
-  background-size: 80%;
-  border-radius: inherit;
-  filter: blur(10px);
-  padding: 0;
-  margin: 0;
-}
-
-.equitablewrapper::before{
- width: calc(100% +  20px);
-  height: calc(90%);
-  content: "";
-  position: absolute;
-  top: 10px;
-  left: -8px;
-  background: radial-gradient( rgba(3, 198, 252), rgba(255,255,255,.4));
-  background-size: 80%;
-  border-radius: inherit;
-  filter: blur(10px); 
-  padding: 0;
-  margin: 0;
-}
-
-.brain_wrapper::before{
-  width: calc(100% +  20px);
-  height: calc(100%);
-  content: "";
-  position: absolute;
-  top: 1px;
-  left: -8px;
-  background: radial-gradient( rgba(3, 198, 252), rgba(222, 31, 168,.4));
-  background-size: 90%;
-  border-radius: 20px;
-  filter: blur(8px); 
-  padding: 0;
-  margin: 0;
-} */
-
-/* .smart-city_wrapper::before{
- width: calc(100% +  20px);
-  height: calc(100%);
-  content: "";
-  position: absolute;
-  top: 8px;
-  left: -8px;
-  background: radial-gradient( rgba(3, 198, 252), rgba(31, 44, 222, 0.4));
-  background-size: 90%;
-  border-radius: 20px;
-  filter: blur(8px);  
-  padding: 0;
-  margin: 0;
-} */
