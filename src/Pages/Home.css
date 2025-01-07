@@ -1,0 +1,19 @@
+.container{
+   display: flex;
+   align-items: flex-start;
+}
+
+.content{
+   flex-grow: 1;
+   padding: 20px; /* Main content spacing */
+}
+
+.App{
+   position: relative;
+   z-index: 0;
+}
+
+.imgheader-container{
+   position: relative;
+   z-index: 2;
+}
