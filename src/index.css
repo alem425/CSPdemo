@@ -7,6 +7,7 @@
    --purple-blue-highlight: -moz-linear-gradient(45deg, #73638e 1.84%, #1628f0 102.67% ); 
    /* --gradient-text: -moz-linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%); */
    --main-color: black;
+   --light-text-color: #868585;
 }
 html, body{
    background-color: var(--main-color);

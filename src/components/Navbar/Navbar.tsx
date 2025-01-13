@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   return (
@@ -7,19 +8,19 @@ const Navbar: React.FC = () => {
       <div className="navbar-links">
         <div className="navbar-links-container">
           <p>
-            <a href="#cspV2">CSP V2.0</a>
+            <Link to="/">CSP V2.0</Link>
           </p>
           <p>
-            <a href="#employees">Employees</a>
+            <Link to="/employees">Employees</Link>
           </p>
           <p>
-            <a href="#individuals">Individuals</a>
+            <Link to="/individuals">Individuals</Link>
           </p>
           <p>
-            <a href="#programs">Programs</a>
+            <Link to="/programs">Programs</Link>
           </p>
           <p>
-            <a href="#aipower">AI Power</a>
+            <Link to="/aipower">AI Power</Link>
           </p>
         </div>
       </div>

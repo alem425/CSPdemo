@@ -85,11 +85,11 @@ margin: 0;
    background-size: 600%;
    z-index: -1;
    width: calc(100% + 1px);
-   height: calc(100% + 1px);
-   filter:blur(12px);
+   height: calc(90%);
+   filter:blur(15px);
    animation: glowing 20s linear infinite;
    transition: opacity .3s ease-in-out;
-   border-radius: 15px;
+   border-radius: 8px;
    opacity: 0;
 }
 
